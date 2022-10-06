@@ -1,0 +1,32 @@
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 3px solid rgb(146, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+    border: 3px solid rgb(146, 0, 0);
+    font-size: 250%;
+}
+/* границы ячеек тела таблицы */
+td {
+    border: 3px solid rgb(146, 0, 0);
+    font-size: 250%;
+}
+h1 {
+    text-align: center;	
+}
+
+#palette {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #b18ed4;
+    color: #fff;
+    width: 100%;
+}
+
